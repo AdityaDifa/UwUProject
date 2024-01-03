@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to bottom, #ffb6c1, #87cefa, #98fb98); /* Ubah warna sesuai preferensi Anda */
+    height: 100vh; /* Mengisi seluruh tinggi layar */
+    margin: 0; /* Menghapus margin default */
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 50%; 
+}
+.hidden {
+    display: none;
+  }
