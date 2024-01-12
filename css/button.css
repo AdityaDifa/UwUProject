@@ -74,8 +74,15 @@
   height: 65px;
   border-radius: 50px;
   border: 1px rgb(226, 40, 127) solid;
-  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  animation: heartbeat 0.4s infinite alternate;
 }
-
-
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
 
