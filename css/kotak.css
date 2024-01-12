@@ -1,6 +1,6 @@
 .kotak{
     background-color: white;
-    border: 1px solid black;
+    border: 8px solid;
     border-radius: 5px;
     padding: 10px;
     height: 170px;
@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-image: linear-gradient(45deg, rgb(66, 255, 198), rgb(255, 134, 255)) 1;
 
     animation: fadeIn 0.5s ease-in-out;
 }
